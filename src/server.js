@@ -9,6 +9,7 @@ const errorHandler = require('./middleware/errorHandler');
 const notFoundHandler = require('./middleware/notFoundHandler');
 
 // Import routes
+const healthRoutes = require('./routes/health');
 const authRoutes = require('./routes/auth');
 const companyRoutes = require('./routes/company');
 const incorporationRoutes = require('./routes/incorporation');
@@ -58,13 +59,17 @@ app.use((req, res, next) => {
   next();
 });
 
-// Health check endpoint
-app.get('/health', (req, res) => {
+// Health check routes
+app.use('/health', healthRoutes);
+
+// Legacy health check endpoint (for compatibility)
+app.get('/health-legacy', (req, res) => {
   res.status(200).json({ 
     status: 'OK', 
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV,
-    version: '1.0.0'
+    version: '1.0.0',
+    mode: process.env.DB_HOST ? 'database' : 'mock'
   });
 });
 
@@ -84,8 +89,10 @@ app.get('/', (req, res) => {
     version: '1.0.0',
     status: 'running',
     environment: process.env.NODE_ENV,
+    mode: process.env.DB_HOST ? 'database' : 'mock',
     endpoints: {
       health: '/health',
+      health_detailed: '/health/detailed',
       api: '/api/v1',
       docs: '/api-docs'
     }
@@ -100,7 +107,13 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   logger.info(`🚀 Server running on port ${PORT} in ${process.env.NODE_ENV} mode`);
   logger.info(`📊 Health check available at http://localhost:${PORT}/health`);
-  logger.info(`🔧 Mock mode enabled - all endpoints return realistic test data`);
+  
+  if (process.env.DB_HOST) {
+    logger.info(`🗄️ Database mode enabled`);
+  } else {
+    logger.info(`🔧 Mock mode enabled - all endpoints return realistic test data`);
+  }
+  
   logger.info(`🌐 CORS enabled for frontend integration`);
 });
 
@@ -113,6 +126,17 @@ process.on('SIGTERM', () => {
 process.on('SIGINT', () => {
   logger.info('SIGINT received, shutting down gracefully');
   process.exit(0);
+});
+
+// Handle uncaught exceptions
+process.on('uncaughtException', (error) => {
+  logger.error('Uncaught Exception:', error);
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
 });
 
 module.exports = app; 

@@ -10,7 +10,8 @@
     "test": "jest",
     "migrate": "knex migrate:latest",
     "seed": "knex seed:run",
-    "postinstall": "echo 'Backend dependencies installed successfully'"
+    "postinstall": "echo 'Backend dependencies installed successfully'",
+    "railway:start": "NODE_ENV=production node src/server.js"
   },
   "keywords": ["ai", "paralegal", "startup", "automation", "incorporation"],
   "author": "Your Name",

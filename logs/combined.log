@@ -66,3 +66,48 @@
 {"level":"info","message":"🔧 Mock mode enabled - all endpoints return realistic test data","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:10:47.770Z"}
 {"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:10:47.770Z"}
 {"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:10:47.835Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:26:29.595Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:26:29.597Z"}
+{"level":"info","message":"🔧 Mock mode enabled - all endpoints return realistic test data","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:26:29.597Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:26:29.597Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:26:29.638Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:04.421Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:04.423Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:04.423Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:04.423Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:04.456Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:10.514Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:10.515Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:10.515Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:10.516Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:10.535Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:14.773Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:14.774Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:14.774Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:14.774Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:14.792Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:32.658Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:32.659Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:32.660Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:32.660Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:32.675Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:41.764Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:41.765Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:41.765Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:41.765Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:41.779Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:46.157Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:46.159Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:46.159Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:46.159Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:27:46.180Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:27.230Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:27.231Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:27.231Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:27.231Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:27.252Z"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:30.567Z"}
+{"level":"info","message":"📊 Health check available at http://localhost:3000/health","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:30.568Z"}
+{"level":"info","message":"🗄️ Database mode enabled","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:30.568Z"}
+{"level":"info","message":"🌐 CORS enabled for frontend integration","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:30.568Z"}
+{"level":"info","message":"✅ Database connected successfully","service":"chat-paralegal-backend","timestamp":"2025-08-15T09:28:30.586Z"}
