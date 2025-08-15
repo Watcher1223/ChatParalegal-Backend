@@ -142,6 +142,3 @@ SELECT * FROM incorporation_requests;
 \q
 ```
 
-### **2. Install a GUI Database Client (Recommended for Development)**
-
-Let me help you install a popular one: 
